@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
  
  
-public class Directory{
+public class Directory implements DirectoryEntry{
 	
 	// Directory Files
 	private final List<Object> list;

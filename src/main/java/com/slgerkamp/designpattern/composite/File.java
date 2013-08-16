@@ -4,7 +4,7 @@
  */
 package com.slgerkamp.designpattern.composite;
 
-public class File {
+public class File implements DirectoryEntry{
 	// fileName
 	private final String name;
 	
