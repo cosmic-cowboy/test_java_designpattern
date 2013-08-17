@@ -13,24 +13,30 @@ public class Main {
      * @param args
      */
     public static void main(String args[]) {
-        HumanLetter あ = new HumanLetter("あ");
+    	HumanLetterFactory humanLetterFactory = HumanLetterFactory.getInstance();
+    	
+        HumanLetter あ =  humanLetterFactory.getHumanLetter("あ");
         takeAPhoto(あ);
-        HumanLetter い = new HumanLetter("い");
+        HumanLetter い = humanLetterFactory.getHumanLetter("い");
         takeAPhoto(い);
-        HumanLetter は = new HumanLetter("は");
+        HumanLetter は = humanLetterFactory.getHumanLetter("は");
         takeAPhoto(は);
-        takeAPhoto(あ);
-        takeAPhoto(い);
-        HumanLetter よ = new HumanLetter("よ");
+        HumanLetter あ2 =  humanLetterFactory.getHumanLetter("あ");
+        takeAPhoto(あ2);
+        HumanLetter い2 = humanLetterFactory.getHumanLetter("い");
+        takeAPhoto(い2);
+        HumanLetter よ = humanLetterFactory.getHumanLetter("よ");
         takeAPhoto(よ);
-        HumanLetter り = new HumanLetter("り");
+        HumanLetter り = humanLetterFactory.getHumanLetter("り");
         takeAPhoto(り);
-        HumanLetter も = new HumanLetter("も");
+        HumanLetter も = humanLetterFactory.getHumanLetter("も");
         takeAPhoto(も);
-        takeAPhoto(あ);
-        HumanLetter お = new HumanLetter("お");
+        HumanLetter あ3 = humanLetterFactory.getHumanLetter("も");
+        takeAPhoto(あ3);
+        HumanLetter お = humanLetterFactory.getHumanLetter("お");
         takeAPhoto(お);
-        takeAPhoto(い);
+        HumanLetter い3 = humanLetterFactory.getHumanLetter("い");
+        takeAPhoto(い3);
     }
  
     /**
