@@ -19,22 +19,18 @@ public class Main {
         takeAPhoto(い);
         HumanLetter は = new HumanLetter("は");
         takeAPhoto(は);
-        HumanLetter あ2 = new HumanLetter("あ");
-        takeAPhoto(あ2);
-        HumanLetter い2 = new HumanLetter("い");
-        takeAPhoto(い2);
+        takeAPhoto(あ);
+        takeAPhoto(い);
         HumanLetter よ = new HumanLetter("よ");
         takeAPhoto(よ);
         HumanLetter り = new HumanLetter("り");
         takeAPhoto(り);
         HumanLetter も = new HumanLetter("も");
         takeAPhoto(も);
-        HumanLetter あ3 = new HumanLetter("あ");
-        takeAPhoto(あ3);
+        takeAPhoto(あ);
         HumanLetter お = new HumanLetter("お");
         takeAPhoto(お);
-        HumanLetter い3 = new HumanLetter("い");
-        takeAPhoto(い3);
+        takeAPhoto(い);
     }
  
     /**
