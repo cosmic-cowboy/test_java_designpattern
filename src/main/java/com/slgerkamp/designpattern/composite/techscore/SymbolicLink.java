@@ -1,4 +1,4 @@
-package com.slgerkamp.designpattern.composite;
+package com.slgerkamp.designpattern.composite.techscore;
 
 public class SymbolicLink implements DirectoryEntry {
 	
