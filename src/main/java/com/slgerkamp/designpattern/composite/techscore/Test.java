@@ -1,9 +1,12 @@
-/**
- * Webアプリ開発エンジニアのための技術情報サイト[TECHSCORE]を写経
- * http://www.techscore.com/tech/DesignPattern/Strategy.html/
- */
 package com.slgerkamp.designpattern.composite.techscore;
 
+
+/**
+ * デザインパターン 11章　Composite パターン
+ * http://www.techscore.com/tech/DesignPattern/Composite.html/
+ * 
+ * 
+ */
 public class Test {
     public static void main(String args[]){
         File file1 = new File("file1");
